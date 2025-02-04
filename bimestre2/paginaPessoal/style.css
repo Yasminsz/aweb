@@ -6,7 +6,7 @@
     font-family: "Poppins", serif;
 }
 body{
-    background-color: deeppink;
+    background-color: #F8E0E0;
 }
 .interface {
     max-width: 1200px;
@@ -14,21 +14,18 @@ body{
 }
 
 header {
+    text-align: center;
     width: 100%;
-    padding: 10px 0;
-}
-header .logo img{
-    max-width: 40px;
-    display: inline-block;
-    padding-down: 50px;
+    background-color: #F2DCDC;
 }
 
+
 header .menu-desktop a{
+
     display: inline-block;
-    margin: 0 40px;
-    color: pink;
+    margin: 0 60px;
+    color: hotpink;
     text-decoration: none;
-    display: inline-block;
     transition: .2s;
 
 }
@@ -38,8 +35,9 @@ header .menu-desktop a{
 }
 .menu-desktop nav h1{
     font-size: 50px;
-    color: aliceblue;
-    font-weight: 200;
+    color: hotpink;
+    text-align: center;
+    font-weight:  300;
 }
 
 /* Estilo de hero */
@@ -61,7 +59,9 @@ section.hero-site{
 .hero-site .txt-hero h1{
     font-size: 4em;
     line-height: 70px;
-    font-weight:  200;
+    font-weight:  300;
+    padding-right: 80px;
+    padding-top: 200px;
 }
 
 .hero-site .txt-hero h1 span{
@@ -69,7 +69,7 @@ section.hero-site{
 }
 
 .hero-site .txt-hero p{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     margin: 20px 0;
 }
@@ -78,8 +78,45 @@ section.hero-site{
     width: 220px;
     height: 60px;
     font-size: 20px;
-    background-color: pink;
-    border: 1px solid #fff;
-    color: #fff;
+    background-color: hotpink;
+    border: 2px solid #F7F2EC;
+    color: #F7F2EC;
     transition: .5s;
+}
+
+.sobre{
+    padding: 80px 0;
+}
+.sobre .txt-sobre h1{
+    font-size: 30px;
+    color: hotpink;
+    
+}
+.sobre .txt-sobre p{
+    padding-top: 10px;
+    color: hotpink;
+}
+
+.card .card-container{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    background-color: #F7F2EC;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+.card .card-container .img-card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card .card-container .txt-card{
+    font-size: 15px;
+    padding: 10px;
+
 }
