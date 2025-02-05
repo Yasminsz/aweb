@@ -1,0 +1,158 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    align-items:center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1 rem;
+}
+
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 69px;
+    border: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul { 
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+nav img {
+    margin: 10px;
+    height: 50px;
+}
+
+.mission {
+    background-image: url("resources/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 69px;
+} 
+
+.mission div {
+    width: 100%;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+
+
+.tea-o-month {
+    width: auto;
+    max-width: 1000px;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 15px 0;
+
+}
+
+.tea-pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.tea-pics img {
+    width: 300px;
+    height: 200px;
+    padding:10px;
+}
+
+
+
+.Locations {
+    margin: 20px auto;
+    background-image: url("resources/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 500px;
+}
+
+#special {
+    background-color: transparent;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+
+}
+
+.locations-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 300px;
+    min-height: 100%;
+    margin: 15px 20px;
+    padding: 15px 40px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.locations-info p,
+.locations-info h3 {
+    margin: 10px auto;
+}
+
+
+
+footer div {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#copyright {
+    text-align: left;
+    padding: 20px;
+}
