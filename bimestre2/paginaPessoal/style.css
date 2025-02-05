@@ -9,8 +9,13 @@ body{
     background-color: #F8E0E0;
 }
 .interface {
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 header {
@@ -40,7 +45,7 @@ header .menu-desktop a{
     font-weight:  300;
 }
 
-/* Estilo de hero */
+
 section.hero-site{
     height: 100vh;
     background-image: url(imagens/hero.png);
@@ -56,12 +61,15 @@ section.hero-site{
     height: 100%;
 }
 
+.hero-site .txt-hero{
+    padding: 200px;
+}
+
 .hero-site .txt-hero h1{
     font-size: 4em;
     line-height: 70px;
     font-weight:  300;
-    padding-right: 80px;
-    padding-top: 200px;
+    padding-bottom: 20px;
 }
 
 .hero-site .txt-hero h1 span{
@@ -69,9 +77,10 @@ section.hero-site{
 }
 
 .hero-site .txt-hero p{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 300;
-    margin: 20px 0;
+    padding-bottom: 20px;
+
 }
 
 .hero-site button{
@@ -84,6 +93,11 @@ section.hero-site{
     transition: .5s;
 }
 
+.hero-site button:hover{
+    transform: scale(1.1);
+}
+
+
 .sobre{
     padding: 80px 0;
 }
@@ -94,9 +108,14 @@ section.hero-site{
 }
 .sobre .txt-sobre p{
     padding-top: 10px;
-    color: hotpink;
+    font-size: 1.2em; 
+    color: #555; 
 }
-
+.card h1{
+    color: hotpink;
+    padding-top: 20px;
+    font-size: 30px;
+}
 .card .card-container{
     text-align: center;
     display: inline-block;
@@ -116,7 +135,112 @@ section.hero-site{
 }
 
 .card .card-container .txt-card{
-    font-size: 15px;
     padding: 10px;
+    font-size: 0.9em; 
+    color: #555; 
 
+}
+
+.tabela{
+    width: 100%;
+    padding: 90px;
+    border-collapse: collapse;
+
+    
+}
+td, th{
+    padding: 20px;
+    border: 1px solid hotpink;
+    font-size: 1.2em; 
+    color: #555; 
+    
+
+}
+
+.tabela h2{
+    color: hotpink;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.causos{
+    padding: 10px;
+    padding-bottom: 100px;
+}
+.causos h2{
+    color: hotpink;
+    padding-bottom: 30px;
+
+}
+.causos p{
+    font-size: 1.2em; 
+    color: #555; 
+    margin: 10px 0; 
+    padding-left: 20px; 
+    position: relative; 
+
+}
+
+
+.habilidades {
+    background-color: #f4f4f4; 
+    padding: 20px 0; 
+    margin: 30px 0; 
+}
+
+.interface h2 {
+    color: hotpink;
+    font-size: 1.8em; 
+    margin-bottom: 20px; 
+}
+
+.interface ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.interface li {
+    font-size: 1.2em; 
+    color: #555; 
+    margin: 10px 0; 
+    padding-left: 20px; 
+    position: relative; 
+}
+
+
+#contatos {
+    padding: 30px 0; 
+    text-align: center; 
+}
+
+#contatos h2 {
+    font-size: 1.8em;
+    color: hotpink;
+    margin-bottom: 20px; 
+}
+
+#contatos a {
+    display: block; 
+    font-size: 1.2em;
+    color: hotpink;
+    text-decoration: none;
+    margin: 10px 0; 
+    transition: 0.3s; 
+}
+
+#contatos a:hover {
+    transform: scale(1.05)
+}
+
+
+footer {
+    padding: 20px 0;
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+footer p {
+    font-size: 1em;
+    color: hotpink;
 }
