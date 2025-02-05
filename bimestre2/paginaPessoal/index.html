@@ -1,111 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yasmin Fernandes</title>
     <link rel="stylesheet" href="style.css">
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--/Google Fontes-->
 </head>
 <body>
     <header>
-        <nav>
-            <li><a href="#curiosidades">Curiosidades</a></li>
-            <li><a href="#historico">Educação</a></li>
-            <li><a href="#causos">Causos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-        <h1 class="logo">YF</h1>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <img src="imagens/hero.png" alt="">
-            <div class="hero-text">
-                <h1>Blog Pessoal de Yasmin Fernandes</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta aut deserunt facere neque voluptatum eaque officiis, quam numquam, 
-                    nostrum cupiditate cum fugiat nobis, quia itaque voluptatem vel odit quisquam esse!
-                </p>
-                <button>Saber mais</button>
-            </div>
-
-        </div>
-    </main>    
         
-          
-
-        </div>
-    </div>
-    <img src="" alt="">
-    <header>
-        <h1>Yasmin Fernandes</h1>
-        <img src="minhafoto.jpg" alt="Yasmin" width="200">
-    </header>
-
-    <section>
-        <h2>
-            Sobre mim
-        </h2>
-        <p>Olá, Sejam Bem-Vindos ao meu Blog! Meu nome é Yasmin, tenho 18 anos e moro em Ceará-Mirim/RN. Eu sou uma pessoa caseira, gosto de passar tempo com minha família, ir à Igreja e assistir filmes e séries de comédia romântica. Um dos meus sonhos desde pequena é viajar o mundo, ter estabilidade financeira, formar uma linda família e morar perto da praia.</p>
-
-    </section>
-
-    <section id="curiosidades">
-        <h2>Curiosidades sobre mim </h2>
-            <h1>Gosto de observar a natureza</h1>
-            <h1>Tenho 3 apelidos: Mim, Mimin e irmãrzinha</h1>
-            <h1>Tenho medo de cachorro</h1>
-            <h1>Sou irmã do meio</h1>
-            <h1>Meu lugar preferido é a praia</h1>
-
-    </section>
-
-    <section id="historico">
-        <h2>Meu Histórico Escolar</h2>
-        <table border="3">
-            <tr>
-                <td>Ano</td>
-                <td>Escola</td>
-            </tr>
-            <tr>
-                <td>2013</td>
-                <td>E.M Antonieta Pereira Varela</td>
+        <section class="menu-desktop">
                 
-            </tr>
-            <tr>
-                <td>2016</td>
-                <td>E.E Imaculada Conceição</td>
-            </tr>
-            <tr>
-                <td>2018</td>
-                <td>E.E Monsenhor Celso Cicco</td>
-            </tr>
-            <tr>
-                <td>2022</td>
-                <td>IFRN Ceará-Mirim</td>
-            </tr>
+            <nav>
+                <h1>Y.F</h1>
+                <a href="#curiosidades">Curiosidades</a>
+                <a href="#historico">Histórico</a>
+                <a href="#causos">Causos</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contatos">Contatos</a>
+                    
+            </nav>
 
-        </table>
+        </section>
+
+        
+    </header>
+    <section class="hero-site">
+        <div class="hero">
+
+            <div class="txt-hero">
+
+                <h1>Yasmin<span>Fernandes</span></h1>
+                <p>"Que a minha vida seja um reflexo do amor de Deus em tudo o que eu faço"
+
+                </p>
+                <a href="#sobre">
+                    <button>Sobre mim</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="interface">
+
+            <div class="txt-sobre">
+                <h1>Sobre mim</h1>
+                <p>Olá, sejam bem-vindos ao meu blog! 
+                    Meu nome é Yasmin, tenho 18 anos e moro em Ceará-Mirim/RN. Sou uma pessoa caseira, que ama passar tempo com a família, ir à igreja e maratonar filmes e séries de comédia romântica.
+                    Desde pequena, sempre sonhei em viajar pelo mundo, construir uma vida estável, formar uma linda família e, quem sabe, morar pertinho da praia. 
+                    Aqui no blog, compartilho um pouco do que gosto e do que me inspira. Fique à vontade para explorar e interagir!</p>
+            </div>
+        </div>
+
 
     </section>
-    
-    <section id="causos">
-        <h2>Causos</h2>
+
+    <section class="card" id="curiosidades">
+
+        <div class="interface">
+
+            <h1>Curiosidades</h1>
+
+            <article class="card-container">
+            
+                <div class="img-card">
+                    <img src="imagens/praia.jpg" alt="">
+                </div>
+                <div class="txt-card">
+                    <h3>Meu lugar preferido é a praia</h3>
+                </div>
+
+            </article>
+
+            <article class="card-container">
+                <div class="img-card">
+                    <img src="imagens/cao.jpg" alt="cachorro">
+                </div>
+
+                <div class="txt-card">
+                    <h3>Tenho medo de cachorro</h3>
+                </div>
+                <div class="img-card">
+
+            </article>
+
+            <article class="card-container">
+            
+                <div class="img-card">
+                    <img src="imagens/natureza.jpg" alt="natureza">
+                </div>
+                <div class="txt-card">
+                    <h3>Gosto de Observar a natureza</h3>
+                </div>
+
+            </article>
+
+            <article class="card-container">
+                <div class="img-card">
+                    <img src="imagens/serie_anne.jpg" alt="serie">
+                </div>
+                <div class="txt-card">
+                    <h3>Minha série preferida é Anne with an E</h3>
+                </div>
+
+            </article>
+
+            <article class="card-container">
+               
+                <div class="img-card">
+                    <img src="imagens/peixe.jpg" alt="frutosdomar">
+                </div>
+                <div class="txt-card">
+                    <h3>Não gosto de nenhum fruto do mar</h3>
+                </div>
+
+            </article>
+        </div>
+    </section>
+
+
+    <section class="tabela" id="historico">
+        <div class="interface">
+
+            <h2>Meu Histórico Escolar</h2>
+                <table class="txt-tabela">
+
+                        <tr>
+                            <td>Ano</td>
+                            <td>Escola</td>
+                        </tr>
+                        <tr>
+                            <td>2013</td>
+                            <td>E.M Antonieta Pereira Varela</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>E.E Imaculada Conceição</td>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>E.E Monsenhor Celso Cicco</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>IFRN Ceará-Mirim</td>
+                        </tr>
+            
+                    </table>
+                </div>
+    </section>
+
+    <section class="causos" id="causos">
+        <div class="interface">
+            <h2>Causos</h2>
         <p>
-            Eu era criança e estava no terceiro ano, a aula tinha acabado então todo mundo estava saindo da sala, eu estava passando entre as fileiras das mesas então eu tropecei e cai pra trás (a sorte era que minha mochila era bem grande e amorteceu a queda), e fiquei lá durante uns 30 segundos morrendo de vergonha, fingindo que tinha desmaiado, ai alguém falou vai dormir aí? Então me levantei e fui embora kkkk.
-
-
+            Quando eu era criança, ainda estava no terceiro ano. A aula já tinha terminado e todos estavam saindo da sala. Eu, distraída, passei entre as fileiras das mesas, mas acabei tropeçando e caí de costas. A sorte é que minha mochila, enorme como sempre, acabou amortecendo a queda. Fiquei lá no chão, parada por uns 30 segundos, morrendo de vergonha. Tentei disfarçar, como se tivesse desmaiado. Então, de repente, ouvi alguém dizendo: "Vai dormir aí?" Não aguentei e, entre risos e mais vergonha, me levantei e fui embora, tentando esquecer o mico.
         </p>
+        </div>
 
     </section>
-    <section id="habilidades">
-        <h2>Minhas habilidades</h2>
+
+    <section class="skill" id="habilidades">
+
+        <div class="interface">
+
+            <h2>Minhas habilidades</h2>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+
+            <li>Escrever no diário</li>
+            <li>Fazer compras</li>
+            <li>Editar vídeos</li>
+            <li>Gerenciar finanças pessoais</li> 
+
         </ul>
 
+        </div>
     </section>
 
     <section id="contatos">
@@ -118,5 +194,10 @@
     <footer>
         <p>&copy; 2025 Yasmin Fernandes</p>
     </footer>
+
+
+
+
+
 </body>
 </html>

@@ -8,6 +8,7 @@
 body{
     background-color: #F8E0E0;
 }
+
 .interface {
     width: 80%; 
     margin: 0 auto; 
@@ -21,9 +22,11 @@ body{
 header {
     text-align: center;
     width: 100%;
-    background-color: #F2DCDC;
+    background-color: #fff; 
+    padding: 20px 0; 
+    border-radius: 0; 
+    box-shadow: none; 
 }
-
 
 header .menu-desktop a{
 
@@ -110,6 +113,8 @@ section.hero-site{
     padding-top: 10px;
     font-size: 1.2em; 
     color: #555; 
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
 .card h1{
     color: hotpink;
@@ -123,15 +128,17 @@ section.hero-site{
     margin: 10px;
     background-color: #F7F2EC;
     width: 300px;
-    height: 350px;
+    height: 250px;
     border-radius: 10px;
 
 }
 .card .card-container .img-card img{
     width: 100%;
+    height: 180px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
+
 }
 
 .card .card-container .txt-card{
@@ -141,28 +148,32 @@ section.hero-site{
 
 }
 
-.tabela{
+.tabela {
     width: 100%;
-    padding: 90px;
+    padding: 90px 0; 
+    text-align: center; 
+}
+
+.tabela .txt-tabela {
+    width: 80%; 
+    margin: 0 auto; 
     border-collapse: collapse;
-
-    
 }
-td, th{
+
+td, th {
     padding: 20px;
-    border: 1px solid hotpink;
-    font-size: 1.2em; 
-    color: #555; 
-    
-
+    border: 2px solid hotpink;
+    font-size: 1.2em;
+    color: #555;
+    text-align: center; 
 }
 
-.tabela h2{
+.tabela h2 {
     color: hotpink;
     padding-bottom: 30px;
     text-align: center;
-
 }
+
 
 .causos{
     padding: 10px;
@@ -198,6 +209,7 @@ td, th{
 .interface ul {
     list-style-type: none; 
     padding: 0; 
+
 }
 
 .interface li {
@@ -206,6 +218,8 @@ td, th{
     margin: 10px 0; 
     padding-left: 20px; 
     position: relative; 
+    display: block;
+    text-align: center;
 }
 
 

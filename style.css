@@ -54,3 +54,25 @@ h1 {
 .topo {
     width: 400px;
 }
+
+/*Cor pricipal (60%)*/
+.cor1{
+    background-color: #F8E0E0;
+    width: 60%;
+}
+
+
+/* Cor secundária (30%) */
+.cor2{
+    background-color: #F7F2EC;
+    width: 30%;
+
+}
+
+/* Cor de destaque (10%) */
+
+.cor3{
+    background-color: #FF1493;
+    width: 10%;
+
+}
